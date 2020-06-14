@@ -7,10 +7,17 @@
 
 ## 機能
 
-こんな感じの多機能ボード。
+こんな感じの [Ultra96V2](https://www.avnet.com/wps/portal/japan/products/product-highlights/ultra96/) むけ多機能ボード。
 
-コンセプトは [Ultra96V2](https://www.avnet.com/wps/portal/japan/products/product-highlights/ultra96/) に [ZYBO](https://reference.digilentinc.com/reference/programmable-logic/zybo-z7/start) の良さ(PLのI/O機能の充実)と、[Raspberry PI](https://ja.wikipedia.org/wiki/Raspberry_Pi) の良さ(PSのI/O機能の充実)を追加すること。
+コンセプトは
 
+- [FusionPCB](https://www.fusionpcb.jp)さんの$4.9基板で作る
+- [ZYBO](https://reference.digilentinc.com/reference/programmable-logic/zybo-z7/start) の良さ(PLのI/O機能の充実)の追加
+- [Raspberry PI](https://ja.wikipedia.org/wiki/Raspberry_Pi) の良さ(PSのI/O機能の充実)の追加
+
+です。
+
+主な機能として
 
 - PLの機能
     - TXS0108で3.3V双方向変換した12pin PMOD × 2個
@@ -27,6 +34,9 @@
 - その他の機能
     - 隠れると困るPWR/RSTスイッチの引き出し
     - 申し訳程度にUSB2.0信号を引き出したピンヘッダ
+
+ですが、まだ基板が届いていないのでこのうちいくつ動くやら...
+特に MIPI-CSI は、試作ではあとちょっとのところで1レーンだけ通らないを繰り返しています(厳密なインピーダンスコントロールを依頼していませんので、[こちら](http://nahitafu.cocolog-nifty.com/nahitafu/2008/11/post-57a1.html)を参考にさせて頂いて、設計時の机上計算のみ行っています)。
 
 ## 回路図
 
