@@ -1499,7 +1499,7 @@ Text Label 8550 3850 0    50   ~ 0
 LS_GPIO_1
 Wire Wire Line
 	9300 4150 8550 4150
-Text Label 8550 4150 0    50   ~ 0
+Text Label 8550 4050 0    50   ~ 0
 LS_GPIO_2
 Wire Wire Line
 	9300 4250 8550 4250
@@ -1515,7 +1515,7 @@ Text Label 8550 3950 0    50   ~ 0
 LS_GPIO_5
 Wire Wire Line
 	9300 4050 8550 4050
-Text Label 8550 4050 0    50   ~ 0
+Text Label 8550 4150 0    50   ~ 0
 LS_GPIO_6
 Wire Wire Line
 	9300 4350 8550 4350
