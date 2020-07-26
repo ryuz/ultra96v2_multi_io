@@ -3,11 +3,13 @@
 現在デバッグ中ですが、MIPI-CSI の動作確認できました。
 
 ## 開発イメージ
+
+下記のようなイメージで開発している [Ultra96V2](https://www.avnet.com/wps/portal/japan/products/product-highlights/ultra96/) 向けのI/O拡張ボードです。
+
  ![開発イメージ](documents/develop_image.png "開発イメージ")
 
-## 機能
 
-こんな感じの [Ultra96V2](https://www.avnet.com/wps/portal/japan/products/product-highlights/ultra96/) むけ多機能ボード。
+## 設計コンセプト
 
 コンセプトは
 
@@ -17,6 +19,8 @@
 - 使いたい機能だけ部品実装すれば最低限のコストで使える
 
 です。
+
+## 機能
 
 主な機能として
 
@@ -43,6 +47,11 @@
 ## 回路図
 
 回路図は[こちら](documents/ultra96v2_multi_io_schematic.pdf)
+
+
+## 追加情報
+
+こちらに[ブログ記事](https://ryuz.qrunch.io/entries/CYbeqYnvUk5YYKQB)を書きました。
 
 
 ## 修正履歴
