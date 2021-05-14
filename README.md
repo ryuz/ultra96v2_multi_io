@@ -51,7 +51,7 @@
 
 ## 追加情報
 
-こちらに[ブログ記事](https://ryuz.qrunch.io/entries/CYbeqYnvUk5YYKQB)を書きました。
+こちらに[ブログ記事](https://ryuz.hatenablog.com/entry/2020/07/26/215500)を書きました。
 
 
 ## 修正履歴
